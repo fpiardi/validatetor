@@ -41,6 +41,7 @@ dependencies {
   androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
 
   // added validatetor Android library module as a dependency
-  implementation project(':validatetor')
+  //implementation project(':validatetor')
+  implementation "com.github.fpiardi:validatetor:$rootProject.ext.libVersionName"
 
 }
